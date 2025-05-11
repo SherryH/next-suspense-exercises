@@ -15,8 +15,7 @@ function WebBaseLayout({ children }) {
     <div
       className="web-base"
       style={{
-        '--font-family-primary':
-          primaryFont.style.fontFamily,
+        '--font-family-primary': primaryFont.style.fontFamily,
       }}
     >
       <SiteHeader />
